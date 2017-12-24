@@ -4,50 +4,60 @@
 }
 
 .col-1 {
+  float: left;
   width: 8.33333333%;
 }
 
 .col-2 {
+  float: left;
   width: 16.6666666%;
 }
-
 .col-3 {
   width: 25%;
+  float: left;
 }
-
 .col-4 {
+  float: left;
   width: 33.3333333%;
 }
 
 .col-5 {
+  float: left;
   width: 41.6666666%;
 }
 
 .col-6 {
+  float: left;
   width: 50%;
 }
 
 .col-7 {
+  float: left;
   width: 58.3333333%;
 }
 
 .col-8 {
+  float: left;
   width: 66.6666666%;
 }
 
 .col-9 {
+  float: left;
   width: 75%;
 }
 
 .col-10 {
+  float: left;
   width: 83.33333333%;
 }
 
 .col-11 {
+  float: left;
   width: 91.66666666%;
 }
 
 .col-12 {
+  float: left;
   width: 100%;
 }
 
@@ -68,6 +78,12 @@
 .shoe-nav {
   cursor: pointer;
   background: #fafbfd;
+  font-family: sans-serif;
+}
+
+.nav-fixed{
+  position: fixed;
+  display: block;
 }
 
 .shoe-nav ul {
@@ -134,6 +150,9 @@
   min-height: 10em;
 }
 
+.header-fixed-nav{
+  margin-top: 3em;
+}
 
 /*imgs*/
 
@@ -162,3 +181,25 @@ img {
 .center img {
   margin: 0 auto;
 }
+
+/*responsive design*/
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+  body {
+    font-size: 13px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  body{
+    font-size: 12px;
+  }
+ }
+ /* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+  body{
+    font-size: 10px;
+  }
+ }
